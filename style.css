@@ -1,0 +1,56 @@
+h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.whatToDo {
+  text-align: center;
+}
+
+.whatToDo__items {
+  border: 1px solid black;
+  min-height: 300px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.whatToDo__item {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.whatToDo__item:hover {
+  -webkit-box-shadow: 0 0 5px 2px red, inset 0 0 1px 1px red;
+          box-shadow: 0 0 5px 2px red, inset 0 0 1px 1px red;
+}
+
+.done {
+  text-align: center;
+}
+
+.done__items {
+  border: 1px solid black;
+  min-height: 300px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.done__item {
+  text-align: center;
+  border-bottom: 1px dotted green;
+  margin-bottom: 4px;
+}
+/*# sourceMappingURL=style.css.map */
